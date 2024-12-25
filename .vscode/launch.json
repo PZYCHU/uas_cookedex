@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "uas_cookedex",
+        "request": "launch",
+        "type": "dart",
+        "program": "lib/auth_screen.dart" // Add this line
+      },
+      {
+        "name": "uas_cookedex (profile mode)",
+        "request": "launch",
+        "type": "dart",
+        "flutterMode": "profile",
+        "program": "lib/auth_screen.dart" // Add this line
+      },
+      {
+        "name": "uas_cookedex (release mode)",
+        "request": "launch",
+        "type": "dart",
+        "flutterMode": "release",
+        "program": "lib/auth_screen.dart" // Add this line
+      }
+    ]
+  }
+  
